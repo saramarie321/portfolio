@@ -1,4 +1,7 @@
 
+body{
+    overflow-x:hidden;
+}
 h1, h2, h3, h4, h5, p, li, a{
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -110,6 +113,14 @@ footer ul li{
     list-style-type: none;
     text-align:center;
 }
+.project-page h2{
+    margin-top:20px;
+}
+.project-page .project-image img{
+    width:100%;
+    margin:20px 0;
+}
+
 /* Desktop */
 @media only screen and (min-width: 769px){
     header{
