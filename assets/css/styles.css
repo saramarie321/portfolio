@@ -185,6 +185,13 @@ a.back-to-top {
     text-align:center;
     padding:20px;
 }
+.about-me{
+    text-align: justify;
+}
+.about-me img{
+    margin:0 auto;
+    width:60%;
+}
 .about-me p{
     padding:50px;
 }
