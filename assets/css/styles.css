@@ -181,9 +181,12 @@ a.back-to-top {
     left: 6px;
     top: -10px;
 }
-.contact-heading{
+.page-heading{
     text-align:center;
     padding:20px;
+}
+.about-me p{
+    padding:50px;
 }
 .social{
     text-align:center;
