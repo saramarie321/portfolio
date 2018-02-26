@@ -190,7 +190,7 @@ a.back-to-top {
 }
 .about-me img{
     margin:0 auto;
-    width:60%;
+    height:400px;
 }
 .about-me p{
     padding:50px;
@@ -229,6 +229,7 @@ a.back-to-top {
 
 /* Tablet */
 @media only screen and (max-width: 768px){
+
     ul.nav li{
         margin:40px 10px;
     }
@@ -244,6 +245,9 @@ a.back-to-top {
     a.back-to-top {
         width:30px;
         height:30px;
+    }
+    .about-me img{
+        height:200px;
     }
 }
 
