@@ -1,6 +1,18 @@
-
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 body{
     overflow-x:hidden;
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
 }
 h1, h2, h3, h4, h5, p, li, a{
     font-family: 'Source Sans Pro', sans-serif;
@@ -106,7 +118,13 @@ section.preview .preview-image{
 }
 
 footer{
-    margin:10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0.5rem;
+    background-color: #efefef;
+    text-align: center;
 }
 footer ul{
     padding:0;
@@ -163,6 +181,22 @@ a.back-to-top {
     left: 6px;
     top: -10px;
 }
+.contact-heading{
+    text-align:center;
+    padding:20px;
+}
+.social{
+    text-align:center;
+}
+.social img{
+    height:150px;
+    opacity:0.8;
+    padding:20px;
+}
+.social img:hover{
+    opacity:1;
+}
+
 /* Desktop */
 @media only screen and (min-width: 769px){
     header{
